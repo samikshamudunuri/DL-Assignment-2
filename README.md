@@ -1,4 +1,6 @@
-https://colab.research.google.com/drive/1qVl1L3mQ6vQ794fm-X3en0C9Wg7ScpVd?usp=sharing :link to the collab notebook
+https://colab.research.google.com/drive/1PZnNTZ20a8naeBaUOp9qpjH8Kn4SixIH :link to colab notebook for transliteration
+
+https://colab.research.google.com/drive/1qVl1L3mQ6vQ794fm-X3en0C9Wg7ScpVd?usp=sharing :link to the colab notebook for lyrics
 
 
 GPT-2 Song Lyrics Generation
