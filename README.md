@@ -1,9 +1,50 @@
-https://colab.research.google.com/drive/1PZnNTZ20a8naeBaUOp9qpjH8Kn4SixIH :link to colab notebook for transliteration
+https://colab.research.google.com/drive/1PZnNTZ20a8naeBaUOp9qpjH8Kn4SixIH?usp=sharing:link to colab notebook for transliteration
 
 https://colab.research.google.com/drive/1qVl1L3mQ6vQ794fm-X3en0C9Wg7ScpVd?usp=sharing :link to the colab notebook for lyrics
 
 
-GPT-2 Song Lyrics Generation
+1)Q)(a) Total number of computations:
+
+Assuming:
+
+Embedding size = m
+
+Hidden state size = k
+
+Sequence length = T
+
+Vocabulary size = V
+
+Encoder (1 layer):
+T × (m × k + k × k + k)
+
+Decoder (1 layer):
+T × (k × k + k × k + k + k × V)
+
+Total:
+T × [(m × k + k × k + k) + (2k × k + k + k × V)]
+
+(b) Total number of parameters:
+
+Embedding layer: V × m
+
+Encoder RNN: m × k + k × k + k
+
+Decoder RNN: k × k + k × k + k
+
+Dense output layer: k × V + V
+
+Total:
+(V × m) + (m × k + k × k + k) + (2k × k + k) + (k × V + V)
+
+(c) Accuracy and predictions (example):
+
+Test Accuracy: e.g., 83.5%
+
+
+
+
+2)Q)GPT-2 Song Lyrics Generation
 This project fine-tunes a pre-trained GPT-2 model on a dataset of song lyrics from various artists. The goal is to generate new, creative song lyrics based on a given prompt using the fine-tuned model.
 
 Features
