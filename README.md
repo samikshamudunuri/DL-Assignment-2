@@ -1,4 +1,6 @@
 https://colab.research.google.com/drive/1qVl1L3mQ6vQ794fm-X3en0C9Wg7ScpVd?usp=sharing :link to the collab notebook
+
+
 GPT-2 Song Lyrics Generation
 This project fine-tunes a pre-trained GPT-2 model on a dataset of song lyrics from various artists. The goal is to generate new, creative song lyrics based on a given prompt using the fine-tuned model.
 
